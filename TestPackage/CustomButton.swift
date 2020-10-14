@@ -22,6 +22,6 @@ public class CustomButton {
     public static func roundedBottompRightBottomLeft(view: UIView) {
         view.clipsToBounds = true
         view.layer.cornerRadius = 10
-        view.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner] // Bottom right corner, Bottom left corner respectively 
+        view.layer.maskedCorners = [.layerMinXMaxYCorner, .layerMaxXMaxYCorner] // Bottom right corner, Bottom left corner respectively
     }
 }
