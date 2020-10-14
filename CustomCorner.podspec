@@ -66,7 +66,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.platform     = :ios
-  spec.ios.deployment_target = ‘13.0’
+  spec.ios.deployment_target = "13.0"
   spec.requires_arc = true
   # spec.platform     = :ios, "5.0"
 
